@@ -8,6 +8,7 @@ process for adding OpModes is straightforward.
 
 ## Snark Industries Roster
 Add your name here!
+//KG
 
 ## Creating your own OpModes
 
