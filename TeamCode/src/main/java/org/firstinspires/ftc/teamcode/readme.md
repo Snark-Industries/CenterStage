@@ -10,6 +10,7 @@ process for adding OpModes is straightforward.
 Add your name here!
 Emre - ItWorkedLastTime
 Ben - Ben-Da-Man
+kanoa - jonathan-quangleberry
 ## Creating your own OpModes
 
 The easiest way to create your own OpMode is to copy a Sample OpMode and make it your own.
