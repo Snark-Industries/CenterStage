@@ -7,7 +7,9 @@ robot controller App. This module is currently empty (a clean slate) but the
 process for adding OpModes is straightforward.
 
 ## Snark Industries Roster
-Ben is VERY VERY VERY Awesome
+Add your name here!
+Emre - ItWorkedLastTime
+
 ## Creating your own OpModes
 
 The easiest way to create your own OpMode is to copy a Sample OpMode and make it your own.
