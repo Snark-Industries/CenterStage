@@ -11,6 +11,7 @@ Add your name here!
 Emre - ItWorkedLastTime
 Ben - Ben-Da-Man
 kanoa - jonathan-quangleberry
+Mike - using JQ's account
 ## Creating your own OpModes
 
 The easiest way to create your own OpMode is to copy a Sample OpMode and make it your own.
@@ -32,7 +33,7 @@ To summarize: A range of different samples classes will reside in the java/exter
 The class names will follow a naming convention which indicates the purpose of each class.
 The prefix of the name will be one of the following:
 
-Basic:  	This is a minimally functional OpMode used to illustrate the skeleton/structure
+Basic:  	This is a minimally functional OpMode used to illustrate the skeleton/[readme.md](readme.md)structure
             of a particular style of OpMode.  These are bare bones examples.
 
 Sensor:    	This is a Sample OpMode that shows how to use a specific sensor.
