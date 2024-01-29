@@ -9,6 +9,10 @@ process for adding OpModes is straightforward.
 ## Snark Industries Roster
 Add your name here!
 Rosemary
+Emre - ItWorkedLastTime
+Ben - Ben-Da-Man
+kanoa - jonathan-quangleberry
+Mike - using JQ's account
 
 ## Creating your own OpModes
 
