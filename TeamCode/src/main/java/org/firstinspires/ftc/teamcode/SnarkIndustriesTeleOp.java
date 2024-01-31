@@ -116,9 +116,9 @@ public class SnarkIndustriesTeleOp extends LinearOpMode {
         rightFrontDrive.setDirection(DcMotor.Direction.FORWARD);
         rightBackDrive.setDirection(DcMotor.Direction.FORWARD);
         droneDrive.setDirection(DcMotor.Direction.FORWARD);
-        bottomConveyor.setDirection(DcMotor.Direction.FORWARD); //TODO: Fix direction
-        topConveyor.setDirection(DcMotor.Direction.FORWARD); //TODO: Fix direction
-        conveyorFolder.setDirection(DcMotor.Direction.FORWARD); //TODO: Fix direction
+        bottomConveyor.setDirection(DcMotor.Direction.FORWARD);
+        topConveyor.setDirection(DcMotor.Direction.REVERSE);
+        conveyorFolder.setDirection(DcMotor.Direction.FORWARD);
 
         // Wait for the game to start (driver presses PLAY)
         telemetry.addData("Status", "Initialized");
