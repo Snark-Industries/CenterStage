@@ -157,11 +157,30 @@ public class SnarkIndustriesTeleOp extends LinearOpMode {
                 rightBackPower  /= max;
             }
 
-            // Throttle the power during prototyping.
-            leftFrontPower  /= 2;
-            rightFrontPower /= 2;
-            leftBackPower   /= 2;
-            rightBackPower  /= 2;
+            // TURBO MODE MAKE GO VROOM
+            // turbo mode, NOTE: TURBO MODE ALWAYS WINS
+            // inglesh: when the right trigger is pressed and held, it will make the robot go faster
+            if (gamepad1.right_trigger > 0.3) {
+                // the *= 0.8 sets speed to %80
+                leftFrontPower  *= 0.8;
+                rightFrontPower *= 0.8;
+                leftBackPower   *= 0.8;
+                rightBackPower  *= 0.8;
+            // this checks for percision mode
+            } else if (gamepad1.left_trigger > 0.3) {
+                // the *= 0.2 sets speed to %20
+                leftFrontPower  *= 0.2;
+                rightFrontPower *= 0.2;
+                leftBackPower   *= 0.2;
+                rightBackPower  *= 0.2;
+            } else {
+                // Throttle the power during prototyping.
+                // the *= 0.5 sets speed to %50
+                leftFrontPower  *= 0.5;
+                rightFrontPower *= 0.5;
+                leftBackPower   *= 0.5;
+                rightBackPower  *= 0.5;
+            }
 
 
             // This is test code:
@@ -226,6 +245,7 @@ public class SnarkIndustriesTeleOp extends LinearOpMode {
             bottomConveyor.setPower(bottomConveyorSpeed);
             topConveyor.setPower(topConveyorSpeed);
             conveyorFolder.setPower(conveyorFolderSpeed);
+
 
 
             // Show the elapsed game time and wheel power.
