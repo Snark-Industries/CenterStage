@@ -34,7 +34,6 @@ package org.firstinspires.ftc.teamcode;
  */
 
 @Autonomous(name="Robot: Pixel Right Autonomous", group="Robot")
-@Disabled
 public class AutonomousRight extends LinearOpMode {
 
     /* Declare OpMode members. */

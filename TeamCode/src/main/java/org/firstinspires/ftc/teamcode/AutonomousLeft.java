@@ -34,7 +34,6 @@ import com.qualcomm.robotcore.util.ElapsedTime;
  */
 
 @Autonomous(name="Robot: Pixel Left Autonomous", group="Robot")
-@Disabled
 public class AutonomousLeft extends LinearOpMode {
 
     /* Declare OpMode members. */
