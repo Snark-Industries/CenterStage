@@ -136,10 +136,19 @@ public class BasicOmniOpMode_Linear extends LinearOpMode {
             }
 
             // Throttle the power during prototyping.
-            leftFrontPower  /= 10;
-            rightFrontPower /= 10;
-            leftBackPower   /= 10;
-            rightBackPower  /= 10;
+            leftFrontPower  /= 2;
+            rightFrontPower /= 2;
+            leftBackPower   /= 2;
+            rightBackPower  /= 2;
+
+
+            if (gamepad1.a) {
+                leftFrontPower *= 1.5;
+                rightFrontPower *= 1.5;
+                leftBackPower *= 1.5;
+                rightBackPower *= 1.5;
+            }
+
 
 
             // This is test code:
